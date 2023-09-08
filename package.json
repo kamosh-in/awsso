@@ -1,0 +1,16 @@
+{
+	"bin": {
+		"awsso": "./bin/index.js"
+	},
+	"dependencies": {
+		"typescript": "5.2.2",
+		"yargs": "17.7.2"
+	},
+	"main": "bin/index.js", 
+	"name": "awsso",
+	"scripts": {
+		"compile": "tsc",
+		"watch": "tsc --watch &"
+	},
+	"version": "0.0.0"
+}
